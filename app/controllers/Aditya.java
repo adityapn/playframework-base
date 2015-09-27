@@ -3,13 +3,12 @@ package controllers;
 import play.mvc.Controller;
 
 import org.codehaus.jackson.JsonNode;
-
 import play.libs.Json;
 import play.mvc.*;
 
 public class Aditya extends Controller {
 
-	public static Result index(String user) {
+	public static Result index(String user) {		
 		Message msg = new Message();
 		msg.setUser(user);
 		msg.setMessage(user + " is my hero");
