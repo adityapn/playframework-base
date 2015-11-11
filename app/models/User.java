@@ -6,7 +6,6 @@ import javax.persistence.*;
 
 import com.avaje.ebean.annotation.CreatedTimestamp;
 import com.avaje.ebean.annotation.UpdatedTimestamp;
-import com.sun.jmx.snmp.Timestamp;
 
 import play.data.validation.Constraints.Required;
 import play.db.ebean.Model;
